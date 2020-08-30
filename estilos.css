@@ -1,0 +1,287 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.contenedor{
+    width:90%;
+    max-width: 1440px;
+    margin:auto ;     
+}
+
+header{
+    background-image: url(imagenes/ondas.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height:1000px;
+}
+
+.menu{
+    background:#fff;
+    padding: 9px 20px;
+    
+}
+
+.menu .contenedor{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.contenedor-inicio {
+    display: flex;
+    justify-content: center;
+    margin:  9vh 0;
+
+}
+
+header .titular, .imagen{
+    width: 40%;
+    padding-left: 8%;
+
+}
+
+.titular h1{
+    color:#fff;
+    font-size: 50px;
+}
+
+.titular p{
+    color: #fff;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.imagen img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.boton{
+    margin-top: 20px;
+    background: #253547;
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
+}
+
+/* MAIN */
+
+.dominios{
+    display:flex;
+    margin-left: 250px;
+    font-size: 24px;
+    color: #000;
+    font-weight: 600; 
+}
+
+.dominios li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.punto{
+    color: #177FFF;
+    font-size: 24px;
+}
+
+.anio{
+    color: #999;
+    font-size: 14px;
+}
+
+     /* SECTION SERVICES */
+
+
+#services{
+    padding-top: 50px;
+}
+
+#services .contenedor{
+display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+#services .titular{
+    width: 49%;
+}
+
+#services .service, .tabla{
+    width: 18%;
+    background-color: #fff;
+    box-shadow: 0 20px 25px 0px rgba(0,0,0,.1);
+    border-radius: 24px;
+    padding: 20px 30px;
+}
+
+#services h2{
+    font-weight: 500;
+    font-size: 14px;
+    color: #f88f00;
+    letter-spacing: 1px;
+}
+
+#services  h3{
+    font-weight: 500;
+    font-size: 38px;
+}
+
+#services .boton{
+    margin-top: 20px;
+    background: #2970fa;
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    padding: 15px 38px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
+}
+
+#services h4{
+    font-size: 23px;
+    font-weight: normal;
+    font-family:'Rubik';
+}
+
+.service p{
+    color: #787878;
+    font-size: 14px;
+    line-height:25px;
+}
+
+.service a {
+    color: #2970fa;
+    text-decoration: none;
+    font-family:'Rubik';
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.contenedor-services2{
+    margin-top: 60px;
+}
+
+#dos{
+    position: relative;
+    bottom: 200px;
+}
+
+#servicio1{
+    margin-left: 75px;
+}
+
+
+/* PRICING */
+
+.pricing{
+    padding-top: 90px;
+}
+
+.pricing h2, .pricing h3{
+    text-align: center;
+    margin top:10px;
+}
+
+.pricing h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.h2-pricing{
+    font-weight: 500;
+    font-size: 14px;
+    color: #f88f00;
+    letter-spacing: 1px;
+}
+
+.contenedor-precios{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.tabla li:first-child{
+    list-style:none;
+    font-family:'rubik';
+    color: #ff8f00;
+    margin-bottom: 20px;
+    font-size: 18px ;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.dolar{
+    position: absolute;
+    color: #999;
+    font-size:18px;
+}
+
+.numero{
+    font-family:'Rubik';
+    font-weidht:bold;
+    font-size: 50px;
+    margin-left: 14px;
+}
+
+.mes{
+    color:#999;  
+}
+
+.tabla li:nth-child(2){
+    list-style:none;
+    margin-bottom: 48px;
+    
+}
+
+.item{
+    padding-right:20px;
+    color: #ff8f00;
+    margin-bottom: 27px;
+}
+
+#two .item{
+    color:#269ffa;
+}
+
+.item span{
+    color:#666;
+}
+
+
+#three .item{
+    color:#2acf81;
+}
+
+#one a {
+    
+}
+
