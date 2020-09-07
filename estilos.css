@@ -208,7 +208,7 @@ display: flex;
 
 .pricing h2, .pricing h3{
     text-align: center;
-    margin top:10px;
+    margin-top:10px;
 }
 
 .pricing h3{
@@ -247,7 +247,7 @@ display: flex;
 
 .numero{
     font-family:'Rubik';
-    font-weidht:bold;
+    font-weight:bold;
     font-size: 50px;
     margin-left: 14px;
 }
@@ -283,6 +283,6 @@ display: flex;
 
 #one a {
    background-color: #0752fe;
-   border border-radius: 6px; 
+   border-radius: 6px; 
 }
 
