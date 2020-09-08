@@ -78,7 +78,7 @@ header .titular, .imagen{
     margin-top: 100px;
 }
 
-.boton{
+.boton{ 
     margin-top: 20px;
     background: #253547;
     display: inline-block;
@@ -272,17 +272,38 @@ display: flex;
     color:#269ffa;
 }
 
-.item span{
-    color:#666;
-}
-
 
 #three .item{
     color:#2acf81;
 }
 
 #one a {
-   background-color: #0752fe;
-   border-radius: 6px; 
+   background-color: #ff8f00;
+   background: rgba(255,143,0, 0.1);
+   color:#ff8f00;
 }
 
+.hidden{
+    color: #ccc;
+}
+
+.precios{
+    background: #269ffa;
+   
+}
+
+.precios2{
+    background: #2acf81;
+}
+
+ .tabla{
+    position:relative;
+}
+
+hr{
+    position:absolute;
+    left: 0;
+    top:140px;
+    width: 100%;
+    border-color: #2423230d;
+}
